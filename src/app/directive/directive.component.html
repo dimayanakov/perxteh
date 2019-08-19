@@ -1,0 +1,7 @@
+<form class="directive-form">
+    <mat-form-field class="example-full-width">
+        <input matInput type="text" [(ngModel)]="name" placeholder="Enter your text"
+            [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+    <div [appText]="name" [appColor]="'purple'"></div>
+</form>

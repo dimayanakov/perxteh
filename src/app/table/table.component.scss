@@ -1,0 +1,16 @@
+.table-block {
+    padding: 50px;
+    .mat-form-field {
+        display: flex;
+        font-size: 14px;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .table-container {
+        height: 550px;
+        overflow: auto;
+        table {
+            width: 100%;
+        }
+    }
+}
